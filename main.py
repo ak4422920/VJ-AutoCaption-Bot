@@ -4,8 +4,8 @@
 
 import pyrogram, os, asyncio
 
-app_id = int(os.environ.get("app_id", ""))
-api_hash = os.environ.get("api_hash", "")
+app_id = int(os.environ.get("app_id", "29171167"))
+api_hash = os.environ.get("api_hash", "7ea2149629e445936619f06a3c0dc716")
 bot_token = os.environ.get("bot_token", "")
 custom_caption = os.environ.get("custom_caption", "`{file_name}`\n\n**Powered By - @VJ_Botz**") # Here You Can Give Anything, if You Want Real File Name Then Use {file_name}
 
